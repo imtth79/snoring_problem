@@ -1,7 +1,6 @@
 import scipy.io.wavfile as wav
 import numpy as np 
 from speechpy.feature import mfcc
-from speechpy.feature import lmfe
 import PIL.Image as img
 import os
 
