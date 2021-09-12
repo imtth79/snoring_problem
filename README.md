@@ -7,3 +7,5 @@
    + Activate environment "env": conda activate env
    + Run script: python feature_proc.py
 4. With cnn_train.ipynb, running the code segment one by one on your collab, note that you've modified your data path before running.
+5. Do the same with rnn_train.ipynb
+6. The model is save with HDF5 type
