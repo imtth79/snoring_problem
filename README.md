@@ -8,4 +8,11 @@
    + Run script: python feature_proc.py
 4. With cnn_train.ipynb, running the code segment one by one on your collab, note that you've modified your data path before running.
 5. Do the same with rnn_train.ipynb
-6. The model is save with HDF5 type
+6. The model is save with HDF5 type, convert to TFLite file to predict in real world context
+7. For the real-time session: 
+   + Hardware: RPi 4 Model B
+   + Library: PyAudio, Paho MQTT, Runtime Tflite
+   + Online Broker: Hivemq (http://www.hivemq.com/demos/websocket-client/)
+   + Connect and subcribe topic Lying_posture to the broker
+   + Modify your wifi adress and password on the snoredetect_forever.py
+   + Run script: python3.7 snoredetect_forever to publish both snore status and position information and see the result on the online broker.
