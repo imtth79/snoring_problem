@@ -14,5 +14,5 @@
    + Library: PyAudio, Paho MQTT, Runtime Tflite
    + Online Broker: Hivemq (http://www.hivemq.com/demos/websocket-client/)
    + Connect and subcribe topic Lying_posture to the broker
-   + Modify your wifi adress and password on the snoredetect_forever.py
-   + Run script: python3.7 snoredetect_forever to publish both snore status and position information and see the result on the online broker.
+   + Modify your wifi adress and password on the mpureadserial.ino to read the position data and publish to the broker. (ESP8266 work)
+   + Run script: python3.7 snoredetect_forever to subcribe the broker and publish both snore status and position information then see the result on the online broker. (RPi work)
