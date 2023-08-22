@@ -18,7 +18,7 @@ Former version
    + Modify your wifi adress and password on the mpureadserial.ino to read the position data and publish to the broker. (ESP8266 work)
    + Run script: python3.7 snoredetect_forever to subcribe the broker and publish both snore status and position information then see the result on the online broker. (RPi work)
 
-Thesis Version (Latter Version)
+Bachelor Thesis Version (Latter Version)
 1. The raw data is on this link: https://drive.google.com/drive/folders/1dxhn6gRCNznxeRhHXh_iEawpHpOJwmt6Kkhn10TyZKA2TI9pmKmmDTBYGQ3BzBy1Hxj94neD
 2. Then the Raw Data will be preprocessing using split_audio.ipynb and be label for deep model.
 3. The crnn_model.ipynb will be separate into 2 part: feature process and deep model. (Run consequently in order in the jupyter notebook code)
